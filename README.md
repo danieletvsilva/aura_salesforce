@@ -1,18 +1,30 @@
-# Salesforce DX Project: Next Steps
+# Exercícios Aura- Salesforce #
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Atividade desenvolvida durante Bootcamp- Desenvolvedor Salesforce, utilizando componentes Aura.
 
-## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+>Documentação: 
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+https://developer.salesforce.com/docs/component-library/overview/components
+  
+  
+https://www.lightningdesignsystem.com/utilities/themes/
+  
+  
+https://www.lightningdesignsystem.com/components/icons/?variant=action#site-main-content
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Atividade 1
+Criar componente para auxiliar na criação de fluxo de Leads com informações mínimas para sua conversão. Ferramenta estará na tela inicial do app Sales.
+  
+  
+Atividade 2
+Lista de Contas presentes na org que mostre as principais informações do clientes, na tela inicial do app (Lightining Accordion e Datatable)
+   
+
+Atividade 3
+Componente que permita identificar quais clientes foram contatados ou não durante o processo de 'Negotiation/Review'
+
+Atividade 4
+Lista de materias de compras internas da empresa com dados obrigatórioss e CSS. Necessário ser habilitado para adicionar os produtos na página incial e ser enviado para objeto específico.
