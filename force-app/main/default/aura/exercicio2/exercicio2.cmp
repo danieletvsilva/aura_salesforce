@@ -1,0 +1,25 @@
+<aura:component controller="AccountController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+    
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+    <lightning:card title="Contas Ativas">        
+   	 <lightning:accordion aura:id="accordion" activeSectionName="A" >
+        <lightning:accordionSection name="A" label="Contas">
+            <aura:set attribute="actions">   
+                <lightning:buttonMenu aura:id="menu" alternativeText="Show menu" iconSize="x-small">
+                <lightning:menuItem value="New" label="Contas" />               	
+                </lightning:buttonMenu>
+            </aura:set>
+            <aura:set attribute="body">                
+               <lightning:datatable data="{!v.mydata}" 
+    			columns="{!v.mycolumns}" 
+    			keyField="Id" 
+			    hideCheckboxColumn="true" 
+   				class="slds-scrollable_x" />
+            </aura:set>
+   		</lightning:accordionSection>
+    	</lightning:accordion>
+    </lightning:card>                
+</aura:component>

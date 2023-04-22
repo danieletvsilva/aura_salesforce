@@ -1,0 +1,15 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+			    <!--variáveis-->		
+                <aura:attribute name="fields" type="String[]" default="['LastName', 'Company','Status']" />
+                <aura:attribute name="recordId" type="String"/>
+    
+    			 			 
+    			<lightning:card title="Criar Lead"> 
+                    <!--Declaração da biblioteca de notificações/Aparece a notificação de Lead Criado--> 
+                    <lightning:notificationsLibrary aura:id="notifLib"/>             
+                    <lightning:recordForm
+                            objectApiName="Lead"
+                            fields="{!v.fields}"
+                            onsuccess="{!c.handleSuccess}" />                  
+                </lightning:card>         	
+</aura:component>
