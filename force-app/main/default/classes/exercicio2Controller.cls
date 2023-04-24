@@ -5,7 +5,7 @@ public with sharing class exercicio2Controller {
                 [SELECT Id, Name, Phone, Email__c, AnnualRevenue, CreatedById
 					FROM Account 
 					ORDER BY Name ASC LIMIT 10];
-        //Add isAccessible() check
+
         return accounts;
     }
 }
