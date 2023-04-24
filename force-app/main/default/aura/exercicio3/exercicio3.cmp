@@ -1,4 +1,4 @@
-<aura:component controller="OpportunityController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+<aura:component controller="exercicio3Controller" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
     <aura:attribute name="opportunities" type="List"/>
     <aura:attribute name="columns" type="List"/>
     <aura:attribute name="showNotContactedOnly" type="Boolean" default="false" />   
