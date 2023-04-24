@@ -5,7 +5,7 @@
     <aura:handler name="init" value="{! this }" action="{! c.init }"/>
     
     <lightning:card title="Contas Ativas">        
-   	 <lightning:accordion aura:id="accordion" activeSectionName="A" >
+   	<lightning:accordion aura:id="accordion" activeSectionName="A" >
         <lightning:accordionSection name="A" label="Contas">
             <aura:set attribute="actions">   
                 <lightning:buttonMenu aura:id="menu" alternativeText="Show menu" iconSize="x-small">
@@ -16,10 +16,10 @@
                <lightning:datatable data="{!v.mydata}" 
     			columns="{!v.mycolumns}" 
     			keyField="Id" 
-			    hideCheckboxColumn="true" 
-   				class="slds-scrollable_x" />
+			hideCheckboxColumn="true" 
+   			class="slds-scrollable_x" />
             </aura:set>
-   		</lightning:accordionSection>
+   	</lightning:accordionSection>
     	</lightning:accordion>
-    </lightning:card>                
+  </lightning:card>                
 </aura:component>
