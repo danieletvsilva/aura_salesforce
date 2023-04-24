@@ -1,4 +1,4 @@
-<aura:component controller="OpportunityController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
             <aura:attribute name="fields" type="String[]" default="['Name','DataCompra__c','PrecoUnitario__c', 'Quantidade__c', 'PrecoTotal__c']" />
             <aura:attribute name="recordId" type="String"/>
    			<aura:attribute name="title" type="String" default="Lista de compras para o escritório"/>
