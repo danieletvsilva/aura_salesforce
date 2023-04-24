@@ -1,4 +1,4 @@
-<aura:component controller="AccountController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
+<aura:component controller="exercicio2Controller" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global">
     
     <aura:attribute name="mydata" type="Object"/>
     <aura:attribute name="mycolumns" type="List"/>
